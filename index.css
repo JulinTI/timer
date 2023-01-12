@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 150px;
+    background-color: black;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 50px;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    height: 2.5em;
+    width: 5.5em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color:rgb(31, 212, 31);
+}
+
+.start-btn:hover{
+    background-color: rgb(1, 103, 8);
+}
+
+.pause-btn {
+    background-color: grey;
+}
+
+.pause-btn:hover{
+    background-color: rgb(85, 83, 83);
+}
+
+.stop-btn {
+    background-color: red;
+}
+
+.stop-btn:hover{
+    background-color: rgb(164, 1, 1);
+}
